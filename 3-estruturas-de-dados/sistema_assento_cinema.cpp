@@ -29,6 +29,38 @@ void exibir_sala(){
 
 }
 
+void reservar_assento(){
+
+}
+
+void cancelar_reserva(){
+
+}
+
+void transferir_reserva(){
+
+}
+
+void bloquear_assento(){
+
+}
+
+void desbloquear_assento(){
+
+}
+
+void reservar_grupo(){
+
+}
+
+void exibir_relatorio(){
+
+}
+
+void reorganizar_fileira(){
+
+}
+
 
 int main(void){
     while(true){
@@ -63,20 +95,28 @@ int main(void){
             exibir_sala();
             break;
         case 2:
+            reservar_assento();
             break;
         case 3:
+            cancelar_reserva();
             break;
         case 4:
+            transferir_reserva();
             break;
         case 5:
+            bloquear_assento();
             break;
         case 6:
+            desbloquear_assento();
             break;
         case 7:
+            reservar_grupo();
             break;
-        case 8: 
+        case 8:
+            exibir_relatorio();
             break;
-        case 9: 
+        case 9:
+            reorganizar_fileira();
             break;
         default:
             std::cout<< "Opcao invalida\n";
